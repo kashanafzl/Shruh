@@ -1,0 +1,672 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,700&display=swap');
+
+* {
+    margin: 0 !important;
+    padding: 0 !important;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden !important;
+}
+
+:root {
+    --darkblue: #1C367E;
+}
+
+.main {
+    display: flex;
+}
+
+.toogle {
+    width: 25px;
+    height: 30px;
+    background-color: transparent;
+    margin: 20px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    display: none;
+
+}
+
+.side {
+    width: 25%;
+    border: 1px solid gray;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    position: fixed;
+}
+
+.side1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+    border-bottom: 1px solid gray;
+    padding: 20px 0px !important;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: Montserrat;
+    width: 100%;
+
+}
+
+.side1 img{
+    width: 100px;
+    height: 100px;
+}
+
+.side1 span:nth-of-type(2) img{
+    height: 30px;
+}
+/* ul is here */
+
+.underlist {
+    list-style: none;
+    padding: 0;
+
+}
+
+.underlist li {
+    padding: 5px !important;
+
+}
+
+.underlist li a {
+    text-decoration: none;
+    background-color: #fff;
+    color: black;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: flex-start;
+    display: flex;
+    /* gap: 20px; */
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 8px 11px !important;
+   
+    cursor: pointer;
+    gap: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.30);
+
+}
+#lasttacctive a{
+    background: #7683E726;
+}
+#lasttacctive a svg{
+   fill: #7683E726;
+}
+
+#wallet a select{
+    background: #7683e700; 
+}
+.underlist li a.active{
+    background: #7683E726;
+
+}
+
+.underlist li a:hover{
+    background: #7683E726;
+
+}
+.underlist li a:nth-of-type(1){
+    /* padding: 10px 0px !important; */
+}
+.underlist li a select{
+    /* background-color: red; */
+    padding: 10px 0px !important;
+    width: 240px;
+    outline: none;
+border: none;
+font-size: 13px;
+    font-weight: 500;
+}
+.underlist li a select:hover{
+    /* background-color: gray; */
+    background: #7683e700;
+
+}
+.underlist li a:hover select{
+    /* background-color: gray; */
+    background: #7683e700;
+}
+
+#sele option{
+    background: #7683E726;
+    border: 1px solid rgba(0, 0, 0, 0.30);
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 500;
+}
+/* .underlist li:nth-of-type(1) a{
+    padding: 10px 10px !important;
+} */
+.underlist li a.active {
+    background: #7683E726;
+    color: black;
+}
+
+
+.side1 div:nth-of-type(1) {
+    width: 80px;
+    height: 2px;
+    background-color: black;
+
+}
+.navbarpluscards {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: relative;
+    top: 0px;
+    left: 25%;
+    width: 75%;
+}
+
+.navbartop{
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    height: 100px;
+    gap: 20px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.30);
+    padding-right: 20px !important;
+}
+.navbartop>*{
+    height: 30px;
+}
+
+.per1{
+height: 35px;
+width: 35px;
+}
+.per1 img{
+    height: 35px;
+    width: 35px;
+    }
+.per2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.per2 div:nth-of-type(1){
+    height: 25px;
+    width: 25px;
+}
+.per2 div:nth-of-type(1) img{
+    height:30px;
+    width: 30px;
+}
+
+.per2 div:nth-of-type(2){
+    font-size: 13px;
+    font-weight: 500;
+}
+.per2 div:nth-of-type(2) span{
+    font-size: 11px;
+    font-weight: 500;
+}
+.bottommenue{
+    width: 90%;
+    height: 100px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.30);
+    margin-inline: 5% !important;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+
+.right2{
+    display: flex;
+    flex-direction: column;
+}
+.right2 div:nth-of-type(1){
+font-size: 20px;
+font-weight: bold;
+padding: 3px 3px 3px 3px !important;
+}
+.right2 div:nth-of-type(2){
+    border-top: 1px solid rgba(0, 0, 0, 0.30);
+    font-size: 18px;
+    font-weight: 600;
+    opacity: 0.7;
+    padding: 10px 3px 3px 3px !important;
+}
+.bottommenue button{
+    border-radius: 6px;
+    gap: 10px;
+    font-size: 15px;
+    font-weight: 500;
+    background: #FF6161;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 30px 9px 30px !important;
+}
+
+
+/* this is the css below the navvs setttings */
+
+.walletsdiv{
+    display: flex;
+    align-items: center;
+    height: 70px;
+    width: 90% ;
+    margin-inline: 5% !important;
+    font-size: 25px;
+    font-weight: bold;
+}
+.twobuttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 30px !important;
+}
+.twobuttons button:nth-child(1){
+border: none;
+width: 130px;
+height: 40px;
+border-radius: 10px;
+border: 1px solid rgba(0, 0, 0, 0.30);
+/* background: #FFF; */
+font-size: 14px;
+font-weight: 600;
+}
+.twobuttons button:nth-child(2){
+    border: none;
+    width: 130px;
+height: 40px;
+border-radius: 10px;
+border: 1px solid rgba(0, 0, 0, 0.30);
+/* background: #1A377D;
+color: white; */
+font-size: 14px;
+font-weight: 600;
+}
+/* this is for tthe routing */
+
+/* .custom-button {
+    cursor: pointer;
+    padding: 10px 20px;
+    border: none;
+    background-color: #f2f2f2;
+    margin: 5px;
+    outline: none;
+  } */
+  .active-button {
+    background: #1A377D;
+    color: white;
+  }
+  .content {
+    display: none;
+    padding: 20px;
+    /* border: 1px solid #ccc; */
+  }
+  .active-content {
+    display: block;
+  }
+/* this is the css for the delivery content */
+#setcontent{
+    margin-top: 30px !important;
+    width: 70%;
+    margin-inline: 15% !important;
+    border-radius: 10px;
+    height: 130vh;
+border: 1px solid rgba(0, 0, 0, 0.30);
+background: #FFF;
+padding: 0px 0px 0px 10% !important;
+}
+.recenttra{
+height: 60px;
+font-size: 22px;
+font-weight: bold;
+align-items: center;
+display: flex;
+border-bottom: 1px solid rgba(0, 0, 0, 0.323);
+}
+.crardtwobut{
+    border-radius: 10px;
+border: 1px solid rgba(0, 0, 0, 0.50);
+background: #FFF;
+height: 150px;
+width: 90%;
+margin-right: 30px !important;
+margin-top: 20px !important;
+padding: 15px !important;
+}
+.cardtoptwo{
+border-bottom: 1px solid rgba(0, 0, 0, 0.42);
+display: flex;
+height: 60px;
+justify-content:space-between;
+align-items: center;
+}
+.cardtoptwo div:nth-of-type(1){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.cardtoptwo div:nth-of-type(1) img{
+width: 45px;
+height: 45px;
+border-radius: 50%;
+}
+.cardtoptwo div:nth-of-type(2){
+font-size: 18px;
+font-weight: 600;
+color: #00953B;
+}
+.cardtwobute{
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.cardtwobute button:nth-child(1){
+    border-radius: 10px;
+border: 1px solid rgba(0, 0, 0, 0.30);
+background: #FFF;
+width: 120px;
+height: 40px;
+font-size: 14px;
+font-weight: 500;
+}
+.cardtwobute button:nth-child(2){
+    border-radius: 10px;
+    background: #1A377D;
+    color: white;
+    width: 120px;
+    height: 40px;
+    font-size: 14px;
+    font-weight: 500;   
+    border: none;
+}
+
+/* this is for the three button routing */
+
+.active-button2 {
+    background: #1A377D;
+    color: white;
+  }
+  .content2 {
+    display: none;
+    padding: 20px;
+    /* border: 1px solid #ccc; */
+  }
+  .active-content2 {
+    display: block;
+  }
+
+/* thsi is the css for the three buttons */
+#secondbuttoncon{
+margin-top: 30px !important;
+}
+
+.threbutons{
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 20px;
+}
+.threbutons button{
+ padding: 0px 20px !important;
+    height: 40px;
+    border-radius: 10px;
+border: 1px solid rgba(0, 0, 0, 0.30);
+/* background: #FFF; */
+}
+
+/* this is for the new payment */
+#threecone{
+width: 90%;
+margin-inline: 5% !important;
+margin-top: 30px !important;
+}
+.copyselect{
+     margin-top: 30px !important;
+    width: 70%;
+    margin-inline: 15% !important;
+    border-radius: 10px;
+    height: 73vh;
+border: 1px solid rgba(0, 0, 0, 0.30);
+background: #FFF;
+padding: 0px 0px 0px 10% !important;
+}
+
+.forbottomborder{
+    border: none !important;
+}
+.paymentcard{
+    width: 80%;
+    margin: 20px 30px 3px 42px !important;
+    height: 180px;
+    border-radius: 10px;
+border: 1px solid rgba(0, 0, 0, 0.30);
+background: #FFF;
+}
+.divdisplay{
+display: flex;
+justify-content: space-around;
+align-items: center;
+height: 40px;
+border-bottom: 1px solid rgba(0, 0, 0, 0.324);
+}
+
+.divdisplay div:nth-of-type(1){
+    font-weight: 600;
+    font-size: 14px;
+}
+.paymentcard div:nth-of-type(2){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   font-size: 14px;
+   font-weight: 500;
+    height: 100px;
+    flex-direction: column;
+    gap: 5px;
+}
+.paymentcard div:nth-of-type(2) div:nth-child(1){
+    padding-top: 10px !important;
+}
+.paymentcard div:nth-of-type(2) div:nth-child(2){
+   height: 20px;
+}
+.paymentcard div:nth-of-type(2) div:nth-child(3){
+
+}
+
+
+
+
+/* this is the css for the previous  */
+#threectwo{
+width: 90%;
+margin-inline: 5% !important;
+margin-top: 30px !important;
+}
+.olderpayment{
+    height: 65vh !important;
+}
+
+
+
+
+/* this is the css for the reject payment */
+#threecthree{
+width: 90%;
+margin-inline: 5% !important;
+margin-top: 30px !important;
+}
+.colorred{
+    color: #F00 !important;
+}
+
+
+
+
+@media(max-width:1236px){
+    .underlist li a select{
+        width: 190px;
+    }
+}
+
+@media(max-width:900px) {
+    .toogle {
+        display: block;
+        z-index: 9;
+    }
+
+    .side {
+        width: 50%;
+        border: 1px solid gray;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+        position: fixed;
+        left: -50%;
+        transition: 1s;
+        z-index: 4;
+    }
+
+    .block {
+        width: 50%;
+        border: 1px solid gray;
+        background-color: white;
+        height: 100vh;
+        display: flex;
+        position: fixed;
+        left: 0px;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+        z-index: 4;
+        transition: 1s;
+    }
+    .underlist li a select{
+        width:250px;
+    }
+    .navbarpluscards {
+        width: 100%;
+        left: 0px;
+    }
+}
+
+
+
+
+
+
+
+
+
+@media(max-width:500px) {
+    .cards {
+        margin-inline: 0px !important;
+    }
+    table{
+        width: 250%;
+        /* margin-inline: 5% !important; */
+        /* border: 1px solid rgba(0, 0, 0, 0.30); */
+        padding: 5px 0px 5px 10px !important;
+        border-radius: 10px;
+        }
+.tabble{
+    overflow: scroll;
+}
+
+.side {
+    width: 70%;
+    border: 1px solid gray;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    position: fixed;
+    left: -70%;
+    transition: 1s;
+    z-index: 4;
+}
+
+.block {
+    width: 70%;
+    border: 1px solid gray;
+    background-color: white;
+    height: 100vh;
+    display: flex;
+    position: fixed;
+    left: 0px;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    z-index: 4;
+    transition: 1s;
+}
+.underlist li a select{
+    width:200px;
+}
+
+/* this is the css for the body  */
+.right2 div:nth-of-type(2) {
+font-size: 15px;
+}
+.right2 div:nth-of-type(1) {
+    font-size: 18px;
+}
+.bottommenue {
+    width: 98%;
+    gap: 20px;
+    height: 100px;
+    margin-inline: 1% !important;
+}
+
+#setcontent {
+    margin-inline: 2% !important;
+    width: 93%;
+}
+
+.cardtoptwo div:nth-of-type(1) {
+    gap: 10px;
+    font-size: 13px;
+}
+.threbutons button {
+    font-size: 9px;
+    font-weight: 600;
+}
+.threbutons {
+    gap: 11px;
+}
+.copyselect {
+    width: 98%;
+    margin-inline: 0px !important;
+}
+.paymentcard{
+    width: 90%;
+    margin: 20px 0px 0px 0px !important;
+}
+
+
+
+}

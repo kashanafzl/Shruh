@@ -1,0 +1,1406 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,700&display=swap');
+
+* {
+    margin: 0 !important;
+    padding: 0 !important;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden !important;
+}
+
+:root {
+    --darkblue: #1C367E;
+}
+
+.main {
+    display: flex;
+}
+
+.toogle {
+    width: 25px;
+    height: 30px;
+    background-color: transparent;
+    margin: 20px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    display: none;
+
+}
+
+.side {
+    width: 25%;
+    border: 1px solid gray;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    position: fixed;
+}
+
+.side1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+    border-bottom: 1px solid gray;
+    padding: 20px 0px !important;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: Montserrat;
+    width: 100%;
+
+}
+
+.side1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+    border-bottom: 1px solid gray;
+    padding: 20px 0px !important;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: Montserrat;
+    width: 100%;
+
+}
+.side1 img{
+    width: 100px;
+    height: 100px;
+}
+
+.side1 span:nth-of-type(2) img{
+    height: 30px;
+}
+/* ul is here */
+
+.underlist {
+    list-style: none;
+    padding: 0;
+
+}
+
+.underlist li {
+    padding: 5px !important;
+
+}
+
+.underlist li a {
+    text-decoration: none;
+    background-color: #fff;
+    color: black;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: flex-start;
+    display: flex;
+    /* gap: 20px; */
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 8px 11px !important;
+   
+    cursor: pointer;
+    gap: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.30);
+
+}
+#lightbluecolorhover a{
+    background: #7683E726; 
+}
+#lightbluecolorhover a select{
+    background: #7683e700; 
+}
+.underlist li a.active{
+    background: #7683E726;
+
+}
+
+.underlist li a:hover{
+    background: #7683E726;
+
+}
+.underlist li a:nth-of-type(1){
+    /* padding: 10px 0px !important; */
+}
+.underlist li a select{
+    /* background-color: red; */
+    padding: 10px 0px !important;
+    width: 240px;
+    outline: none;
+border: none;
+font-size: 13px;
+    font-weight: 500;
+}
+.underlist li a select:hover{
+    /* background-color: gray; */
+    background: #7683e700;
+
+}
+.underlist li a:hover select{
+    /* background-color: gray; */
+    background: #7683e700;
+}
+
+#sele option{
+    background: #7683E726;
+    border: 1px solid rgba(0, 0, 0, 0.30);
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 500;
+}
+/* .underlist li:nth-of-type(1) a{
+    padding: 10px 10px !important;
+} */
+.underlist li a.active {
+    background: #7683E726;
+    color: black;
+}
+
+
+.side1 div:nth-of-type(1) {
+    width: 80px;
+    height: 2px;
+    background-color: black;
+
+}
+.navbarpluscards {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: relative;
+    top: 0px;
+    left: 25%;
+    width: 75%;
+}
+
+.navbartop{
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    height: 100px;
+    gap: 20px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.30);
+    padding-right: 20px !important;
+}
+.navbartop>*{
+    height: 30px;
+}
+
+.per1{
+height: 35px;
+width: 35px;
+}
+.per1 img{
+    height: 35px;
+    width: 35px;
+    }
+.per2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.per2 div:nth-of-type(1){
+    height: 25px;
+    width: 25px;
+}
+.per2 div:nth-of-type(1) img{
+    height:30px;
+    width: 30px;
+}
+
+.per2 div:nth-of-type(2){
+    font-size: 13px;
+    font-weight: 500;
+}
+.per2 div:nth-of-type(2) span{
+    font-size: 11px;
+    font-weight: 500;
+}
+.bottommenue{
+    width: 90%;
+    height: 100px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.30);
+    margin-inline: 5% !important;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+
+.right2{
+    display: flex;
+    flex-direction: column;
+}
+.right2 div:nth-of-type(1){
+font-size: 20px;
+font-weight: bold;
+padding: 3px 3px 3px 3px !important;
+}
+.right2 div:nth-of-type(2){
+    border-top: 1px solid rgba(0, 0, 0, 0.30);
+    font-size: 18px;
+    font-weight: 600;
+    opacity: 0.7;
+    padding: 10px 3px 3px 3px !important;
+}
+.bottommenue button{
+    border-radius: 6px;
+    gap: 10px;
+    font-size: 15px;
+    font-weight: 500;
+    background: #FF6161;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 30px 9px 30px !important;
+}
+
+
+/* this is the css for the report and static */
+.report{
+display: flex;
+gap: 15px;
+padding: 30px 0px 10px 5% !important;
+}
+.report div:nth-of-type(1){
+font-size: 22px;
+font-weight: 600;
+}
+.report div:nth-of-type(2){
+    font-size: 14px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 7px;
+border: 1px solid rgba(0, 0, 0, 0.30);
+background: #FFF;
+padding: 0px 10px !important;
+}
+
+/* this is the css for the chards */
+.charts{
+width: 90%;
+margin-inline: 5% !important;
+display: flex;
+gap: 15px;
+padding-top: 30px !important;
+}
+.chartleft{
+width: 63%;
+height: 110vh;
+}
+.topleft{
+    border-radius: 7px;
+    border: 1px solid rgba(0, 0, 0, 0.30);
+    background: #FFF;
+width: 100%;
+height: 50vh;
+padding: 10px !important;
+}
+/* this is the first top */
+.statices{
+display: flex;
+gap: 10%;
+}
+.startileft{
+
+}
+.startileft div:nth-of-type(1){
+font-size: 20px;
+font-weight: 600;
+}
+.startileft div:nth-of-type(2){
+    font-size: 14px;
+    font-weight: 500;
+}
+.startiright{
+display: flex;
+gap: 10px;
+justify-content: center;
+align-items: center;
+}
+.disblue{
+display: flex;
+gap: 8px;
+justify-content: center;
+align-items: center;
+font-size: 14px;
+}
+.disred{
+    display: flex;
+    gap: 8px; 
+    justify-content: center;
+align-items: center;
+font-size: 14px;
+}
+.roundblue{
+width: 10px;
+height: 10px;
+border-radius: 50%;
+background-color: blue;
+}
+.roundred{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: red;
+}
+.map{
+width: 100% !important;
+height: 40vh !important;
+}
+
+/* this is for the sales */
+
+.bottomleft{
+    margin-top: 30px !important;
+width: 100%;
+border-radius: 7px;
+border: 1px solid rgba(0, 0, 0, 0.30);
+background: #FFF;
+}
+.longcard{
+
+}
+table{
+    width: 100%;
+}
+.tabletop{
+    display: flex;
+    gap: 15px;
+    height: 40px;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(14, 7, 7, 0.183);
+    padding: 10px 16px 8px 10px !important;
+
+}
+.tabletop div:nth-of-type(1){
+font-size: 13px;
+font-weight: 600;
+}
+.tabletop div:nth-of-type(2){
+    border-radius: 10px;
+background: #FFF;
+font-size: 11px;
+padding: 4px 12px 4px 9px !important;
+font-weight: 500;
+border: 1px solid #E0E2E7;
+position: relative;
+}
+table select{
+    border: none;
+    outline: none;
+}
+#thth{
+    padding: 10px 10px !important;
+    font-size: 13px;
+    background-color: #F9F9FC;
+}
+tr{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.308) !important;
+    padding: 0px 10px !important;
+}
+#tdtd{
+padding: 5px 10px !important;
+font-size: 12px;
+height: 40px;
+}
+.tdone2{
+    display: flex !important;
+    /* justify-content: center; */
+    align-items: center !important;
+    gap: 4px !important;
+
+}
+td span:nth-of-type(1){
+    font-size: 11px;
+    color: rgba(0, 0, 0, 0.248);
+}
+.td div:nth-of-type(2){
+    font-weight: 600;
+}
+td div:nth-of-type(1) img{
+    width: 30px;
+    height: 30px;
+    border-radius: 15px !important;
+}
+td:nth-last-of-type(1){
+    border-bottom: none !important;
+}
+.color2{
+    background-color: #E7F4EE;
+    border-radius: 100px;
+    color: green;
+    padding: 4px 9px 4px 9px !important;
+    border: none;
+}
+
+#shortcard{
+    width: 100%;
+    height: 56vh;
+}
+.shortcard{
+width: 32%;
+}
+.tabletop{
+
+}
+
+/* this is for the chart right */
+
+.chartright{
+    width: 33%;
+    height: 55vh;
+    height: 110vh;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.chartcardone{
+    width: 100%;
+    height: 140px;
+    border: 1px solid #E0E2E7;
+background: #FFF;
+box-shadow: 0px 1.5px 2px 0px rgba(16, 24, 40, 0.10);
+border-radius: 15px;
+display: flex;
+padding: 10px !important;
+}
+.cardleft{
+display: flex;
+flex-direction: column;
+gap: 5px;
+}
+.cardleft div:nth-of-type(1){
+font-size: 14px;
+font-weight: 600;
+}
+.cardleft div:nth-of-type(2){
+    font-size: 12px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.326);
+}
+.cardleft div:nth-of-type(3){
+    font-size: 25px;
+    font-weight: 600;
+    padding: 7px 0px !important;
+}
+.cardleft div:nth-of-type(4){
+    font-size: 12px;
+    font-weight: 500;
+}
+.cardright{
+width: 50%;
+}
+.viz{
+    width:50%;
+    position: relative;
+}
+.cardright svg{
+    
+    overflow: visible;
+    width: 185%;
+    height: 100px;
+    transform: translate(10px, 18px);
+    position: absolute;
+  }
+
+/* this is the css for the card three */
+
+
+.chartcardthree{
+    width: 100%;
+    height: 280px;
+     border: 1px solid #E0E2E7;
+background: #FFF;
+box-shadow: 0px 1.5px 2px 0px rgba(16, 24, 40, 0.10);
+border-radius: 15px;
+padding: 10px !important;
+position: relative;
+}
+
+.chartcardthree div:nth-of-type(1){
+font-size: 16px;
+font-weight: 600;
+}
+.chartcardthree div:nth-of-type(2){
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.286);
+}
+
+.chartcardthree div:nth-of-type(3){
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.286);
+    padding-bottom: 10px !important;
+}
+
+.roundred2{
+width: 100px;
+height: 100px;
+background-color: #F00;
+border-radius: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+/* gap: 2px; */
+color: white;
+flex-direction: column;
+position: absolute;
+top: 78px;
+left: 20px;
+}
+.roundred2 div:nth-of-type(1){
+    font-size: 12px;
+    font-weight: 600;
+}
+.roundred2 div:nth-of-type(2){
+    font-size: 20px;
+font-weight: 600;
+color: white;
+}
+.roundred2 div:nth-of-type(3){
+    font-size: 12px;
+font-weight: 600;
+color: white;
+}
+
+.roundyellow{
+    width: 50px;
+    height: 50px;
+    background-color: #FF650F;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* gap: 5px; */
+    flex-direction: column;
+    color: white;
+    position: absolute;
+top: 160px;
+left: 150px;
+}
+
+.roundyellow div:nth-of-type(1){
+    font-size: 5px;
+    font-weight: 600;
+    color: white;
+}
+.roundyellow div:nth-of-type(2){
+    font-size: 10px;
+font-weight: 600;
+color: white;
+}
+.roundyellow div:nth-of-type(3){
+    font-size: 5px;
+font-weight: 600;
+color: white;
+}
+
+
+.roundblack{
+    width: 70px;
+    height: 70px;
+    background-color: black;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* gap: 5px; */
+    flex-direction: column;
+    color: white;
+    position: absolute;
+    top: 200px;
+    left: 60px;
+}
+
+.roundblack div:nth-of-type(1){
+    font-size: 8px;
+    font-weight: 600;
+}
+.roundblack div:nth-of-type(2){
+    font-size: 16px;
+font-weight: 600;
+color: white;
+}
+.roundblack div:nth-of-type(3){
+    font-size: 8px;
+font-weight: 600;
+color: white;
+}
+
+/* this is the css for the below charts */
+
+.tabble{
+    width: 90%;
+    margin-inline: 5% !important;
+    border: 1px solid rgba(0, 0, 0, 0.30);
+    margin-top: 20px !important;
+    border-radius: 10px;
+}
+table{
+width: 100%;
+/* margin-inline: 5% !important; */
+/* border: 1px solid rgba(0, 0, 0, 0.30); */
+/* padding: 5px 0px 5px 10px !important; */
+border-radius: 10px;
+}
+/* th{
+    border: 1px solid red;
+} */
+table tr{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.30);
+    /* background-color: red; */
+    /* margin: 10px 0px 10px 10px !important; */
+}
+/* th:nth-of-type(1){
+    width: 30%;
+} */
+
+
+/* td:nth-of-type(6)>*{
+margin: 5px !important;
+cursor: pointer;
+} */
+th input,td input{
+    margin:13px 4px 13px 11px !important
+}
+th select{
+    border: none;
+    outline: none;
+}
+#user{
+    padding: 0px 40px 0px 4px !important;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+/* this is  for the image line in the code */
+th{
+    font-size: 13px !important;
+    font-weight: 500 !important;
+}
+
+tr:nth-last-of-type(1){
+    border-bottom: none;
+}
+#thone{
+
+}
+#thtwo{
+    
+}
+#ththree{
+
+}
+#thfour{
+
+}
+#thfive{
+
+}
+#thsix{
+
+}
+#thseven{
+
+}
+
+/* thiss is for the td */
+td{
+font-size: 12px;
+}
+
+#tdone{
+
+}
+#tdtwo{
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    margin-top: 5px !important;
+}
+#tdtwo img{
+width: 30px;
+height: 30px;
+}
+#tdthree{
+
+}
+#tdfour{
+
+}
+#tdfive{
+
+}
+#tdsix{
+
+}
+#tdseven{
+position: relative !important;
+}
+.activbut{
+    font-size: 13px;
+    font-weight: 500;
+    color:  #00C2FF;
+    background: #0D894F29;
+    border: none;
+    border-radius: 10px;
+    padding: 4px 9px 4px 9px !important;
+
+}
+.inactiveper{
+    font-size: 13px;
+    font-weight: 500;
+    color: #FF4747;
+    background: #890D0D29;
+    border: none;
+    border-radius: 10px;
+    padding: 4px 9px 4px 9px !important;
+}
+.shiped{
+    font-size: 13px;
+    font-weight: 500;
+    color: #00C2FF;
+    background: rgba(255, 216, 181, 0.36);
+    border: none;
+    border-radius: 10px;
+    padding: 4px 9px 4px 9px !important;
+}
+.delever{
+    font-size: 13px;
+    font-weight: 500;
+    color: #00CC6E;
+  border-radius: 7px;
+  background: #E7F4EE;
+    border: none;
+    padding: 4px 9px 4px 9px !important;
+}
+.cancle{
+    font-size: 13px;
+    font-weight: 500;
+  color: #F00;
+  border-radius: 7px;
+  background: #F4E7E7;
+    border: none;
+    padding: 4px 9px 4px 9px !important;
+}
+
+/* this is the css for the poptwo */
+.poptwonon{
+height: 230px;
+position: absolute;
+display: none;
+top: 66%;
+left: 2%;
+}
+.popthreeblock{
+    height: 230px;
+    position: absolute !important;
+    display: block !important;
+    z-index: 4;
+    top: 66%;
+    left: 2%;
+    }
+.poptwo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    width: 80px;
+    height: 220px;
+    border-radius: 16px 0px 16px 16px;
+background: #FFF;
+box-shadow: 0px 4px 14px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+flex-direction: column;
+}
+.poptwo div{
+    border-bottom:1px solid#00000057;
+    font-size: 13px;
+    font-weight: 500;
+    padding: 5px 3px !important;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.recentorder{
+    height: 45px !important;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 15px !important;
+    align-items: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.32);
+}
+.recentorder div:nth-of-type(1){
+    font-size: 18px;
+    font-weight: 600;
+}
+.recentorder div:nth-of-type(2){
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.recentorder div:nth-of-type(2) button:nth-child(1){
+    border: none;
+    border-radius: 8px;
+border: 1px solid #E0E2E7;
+background: #FFF;
+padding: 2px 8px !important;
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 3px;
+}
+.recentorder div:nth-of-type(2) button:nth-child(2){
+    border: none;
+    border-radius: 8px;
+background: #5C59E8;
+padding: 4px 14px !important;
+    font-size: 14px;
+    color: white;
+}
+
+/* this is the css for the third tabble */
+.tablethr{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 5px;
+}
+.tablethr img{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+
+}
+/* this is the css for the last chart */
+
+.lastbutton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 30px !important;
+    height: 50px;
+    width: 100%;
+    margin-bottom: 30px !important;
+}
+.lastbutton button{
+    width: 180px;
+    height: 40px;
+    color: white;
+    border: none;
+    border-radius: 11px;
+background: rgba(255, 0, 0, 0.64);
+display: flex;
+justify-content: center;
+align-items: center;
+}
+#centerreveiw{
+    text-align: center;
+}
+.reveiw{
+    font-size: 9px;
+    font-weight: 500;
+}
+
+
+
+
+
+
+
+/* this is the css for the popup boxes   */
+#popup4{
+    top: 472px;
+    right: 158px;
+    /* background-color: red; */
+   position:fixed;
+    display: none;
+    border-radius: 28px 0px 28px 28px;
+background: #FFF;
+box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+
+}
+
+#popup3{
+    top: 472px;
+    right: 158px;
+    /* background-color: red; */
+   position:fixed;
+    display: none;
+    border-radius: 28px 0px 28px 28px;
+background: #FFF;
+box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+
+}
+
+
+#popup2{
+    top: 391px;
+    right: 158px;
+    /* background-color: red; */
+   position:fixed;
+    display: none;
+    border-radius: 28px 0px 28px 28px;
+background: #FFF;
+box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+
+}
+
+.popup{
+    width: 270px;
+    height: 80vh;
+    /* background-color: red; */
+   position:fixed;
+    display: none;
+    top: 51vh;
+    right: 30%;
+    border-radius: 28px 0px 28px 28px;
+background: #FFF;
+box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.pophead{
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 10px !important;
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+    align-items: center;
+}
+.pophead div:nth-of-type(1){
+font-size: 13px;
+font-weight: 600;
+}
+.pophead div:nth-of-type(2){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+    font-size: 13px;
+    opacity: 0.65;
+    text-decoration: underline;
+}
+
+
+#accordionFlushExample{
+    padding-inline: 10px !important;
+    
+}
+
+#heading {
+    background-color:#F9F9FC ;
+    padding: 3px 2px 3px 5px !important;
+    border: 1px solid rgba(0, 0, 0, 0.30);
+    margin-bottom: 10px !important;
+    border-radius: 3px;
+    font-size: 15px;
+    font-weight: 500;
+}
+#body{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding-top: 5px !important;
+}
+#body div{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 3px;
+    font-size: 14px;
+    font-weight: 400;
+}
+/* this second filter */
+#secondbody{
+/* display: flex;
+flex-direction: column; */
+position: relative;
+padding-top: 10px !important;
+padding-bottom: 5px !important;
+}
+#secondbody label{
+font-size: 14px;
+font-weight: 500;
+}
+
+#secondbody input{
+text-indent: 20px;
+width: 99%;
+outline: none;
+border: 1px solid #E0E2E7;
+border-radius: 8px;
+background-color: #F9F9FC;
+padding: 3px 0px 5px 3px !important;
+}
+#secondbody svg{
+position: absolute;
+top: 38px;
+}
+#secondbody svg:nth-of-type(2){
+    position: absolute;
+        top: 92px;
+    }
+
+#secondbody input::placeholder{
+font-size: 14px;
+font-weight: 450;
+}
+/* this is the css for the third  */
+#body2{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 5px !important;
+}
+.circle{
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+}
+.red{
+background-color: red;
+}
+.green{
+background-color: #008000;
+}
+.blue{
+background-color: #0000FF;
+}
+.yellow{
+background-color: #FFFF00;
+}
+.halfyel{
+background-color: #FFA500;
+}
+
+#body2 div{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 7px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
+
+/* this is the css for the forth in the popup  */
+#body3{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding-top: 5px !important;
+}
+#body3 div{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 3px;
+    font-size: 14px;
+    font-weight: 400;
+}
+/* the css for the buttons */
+.popbutton{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+    padding-right: 10px !important;
+    padding-top: 15px !important;
+}
+.popbutton button:nth-of-type(1){
+border: none;
+color: #858D9D;
+/* background-color: #858D9D; */
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 8px;
+    border: 1px solid #858D9D;
+    padding: 5px 13px 5px 13px !important;
+}
+.popbutton button:nth-of-type(2){
+    border: none;
+    color: #fff;
+    background-color: #858D9D;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 8px;
+    padding: 5px 13px 5px 13px !important;
+}
+
+
+/* this is the css for the add store */
+
+.formadd{
+    width: 100%;
+    /* background-color: rebeccapurple; */
+    height: 98vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.formadd div:nth-child(1){
+width: 100px;
+height: 100px;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 100%;
+background-color: #D9D9D9;
+}
+
+.formadd span:nth-of-type(1){
+    font-size: 25px;
+    font-weight: bold;
+    color: #000;
+    padding: 20px 0px 30px 0px !important;
+}
+.formadd input{
+    width: 520px;
+    border-bottom: 1px solid #1A377D;
+    height: 30px;
+    outline: none;
+   border-left: none;
+   border-top: none;
+   border-right: none;
+    font-size: 18px;
+    position: relative;
+    font-weight:500;
+    margin-bottom: 10px !important;
+    
+}
+/* .lform input::placeholder{
+    font-size: 20px;
+} */
+.formadd label{
+    font-size: 16px;
+    font-weight: 500;
+    transform: translate(0px,25px);
+    z-index: 2;
+    position: absolute;
+    opacity: 0.5;
+}
+/* .lform input:focus ~ label {
+    transform: translate(0px, -20px);
+  } */
+ .formadd button{
+    color: #000;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 11px;
+/* border: 1px solid rgba(0, 0, 0, 0.30); */
+background: #FF6161;
+width: 190px;
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 10px;
+color: white;
+height: 48px;
+cursor: pointer;
+margin-top: 50px !important;
+border: none;
+ } 
+
+
+
+
+
+
+
+
+
+@media(max-width:1236px){
+    .underlist li a select{
+        width: 190px;
+    }
+.tabble {
+    width: 98%;
+    margin-inline: 1% !important;
+}
+
+
+}
+
+@media(max-width:1024px){
+    .cardleft div:nth-of-type(4) {
+    font-size: 10px;
+    font-weight: 500;
+}
+.chartleft {
+    width: 68%;
+}
+/* .chartright{
+    width: 36%;
+} */
+
+
+
+}
+
+@media(max-width:900px) {
+    .toogle {
+        display: block;
+        z-index: 9;
+    }
+
+    .side {
+        width: 50%;
+        border: 1px solid gray;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+        position: fixed;
+        left: -50%;
+        transition: 1s;
+        z-index: 4;
+    }
+
+    .block {
+        width: 50%;
+        border: 1px solid gray;
+        background-color: white;
+        height: 100vh;
+        display: flex;
+        position: fixed;
+        left: 0px;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+        z-index: 4;
+        transition: 1s;
+    }
+    .underlist li a select{
+        width:250px;
+    }
+    .navbarpluscards {
+        width: 100%;
+        left: 0px;
+    }
+        .cardleft div:nth-of-type(4) {
+    font-size: 8px;
+    font-weight: 500;
+}
+.charts {
+    width: 98%;
+    margin-inline: 1% !important;
+}
+th{
+    font-size: 12px;
+    }
+    
+    td{
+        font-size: 10px;
+    }
+    
+
+
+}
+
+
+
+
+
+
+
+
+
+@media(max-width:500px) {
+    .cards {
+        margin-inline: 0px !important;
+    }
+    table{
+        width: 250%;
+        /* margin-inline: 5% !important; */
+        /* border: 1px solid rgba(0, 0, 0, 0.30); */
+        padding: 5px 0px 5px 10px !important;
+        border-radius: 10px;
+        }
+.tabble{
+    overflow: scroll;
+}
+
+.side {
+    width: 70%;
+    border: 1px solid gray;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    position: fixed;
+    left: -70%;
+    transition: 1s;
+    z-index: 4;
+}
+
+.block {
+    width: 70%;
+    border: 1px solid gray;
+    background-color: white;
+    height: 100vh;
+    display: flex;
+    position: fixed;
+    left: 0px;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    z-index: 4;
+    transition: 1s;
+}
+.underlist li a select{
+    width:200px;
+}
+
+/* this is the css for the body  */
+.right2 div:nth-of-type(2) {
+font-size: 15px;
+}
+.right2 div:nth-of-type(1) {
+    font-size: 18px;
+}
+.bottommenue {
+    width: 98%;
+    gap: 20px;
+    height: 100px;
+    margin-inline: 1% !important;
+}
+.bottomleft {
+    overflow-y: hidden;
+}
+.charts {
+flex-direction: column;
+}
+.chartleft {
+    width: 100%;
+}
+.chartright{
+    width: 100%;
+}
+}

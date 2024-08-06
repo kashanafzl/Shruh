@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="./asserts/css/login.css">
+</head>
+<body>
+    <div class="lmain">
+<div class="lform">
+<img src="./asserts/img/shurh.svg" alt="">
+<span>ش ر و ه</span>
+<div class="fline"></div>
+<span>SHURH</span>
+
+<span>Login</span>
+
+<form action="">
+<label for="" class="input-label">Mobile Number</label><br>
+<input type="text"  class="input-field"><br>
+
+<label for=""  class="input-label">Email</label><br>
+<input type="email" class="input-field"><br>
+
+<label for="" class="input-label">Password 1</label><br>
+<input type="password"  class="input-field"><br>
+
+<label for="" class="input-label">Password 2</label><br>
+<input type="password"  class="input-field"><br>
+
+
+
+
+
+
+
+</form>
+<button onclick="dash()">Login</button>
+</div>
+
+    </div>
+
+<script>
+function dash(){
+    window.location.href = './User-Management.html'
+}
+
+
+const inputFields = document.querySelectorAll('.input-field');
+const inputLabels = document.querySelectorAll('.input-label');
+
+inputFields.forEach((inputField, index) => {
+  inputField.addEventListener('focus', () => {
+    inputLabels[index].style.transform = 'translate(0px, 0px)';
+    inputLabels[index].style.fontSize = '14px';
+    inputLabels[index].style.fontWeight = '700';
+    inputLabels[index].style.transition = 'transform 0.3s, font-size 0.3s, font-weight 0.3s';
+    inputLabels[index].style.opacity = '1';
+  });
+
+  inputField.addEventListener('blur', () => {
+    if (!inputField.value) {
+      inputLabels[index].style.transform = 'translate(0px, 25px)';
+      inputLabels[index].style.fontSize = '16px';
+      inputLabels[index].style.fontWeight = 'normal';
+      inputLabels[index].style.opacity = '0.5';
+    }
+  });
+});
+
+
+
+</script>
+
+</body>
+</html>

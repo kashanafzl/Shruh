@@ -1,0 +1,105 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.lmain{
+ display: flex;
+ justify-content: center;
+ align-items: center;   
+}
+.lform{
+    width: 40%;
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.lform img{
+    width: 100px;
+    height: 100px;
+
+}
+.lform span:nth-of-type(1){
+font-size: 16px;
+color: #7683E5;
+font-weight: 700;
+}
+.fline{
+width: 100px;
+height: 2px;
+background-color: black;
+margin: 5px 0px !important;
+}
+.lform span:nth-of-type(2){
+    color: #1C367E;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.lform span:nth-of-type(3){
+    font-size: 35px;
+    font-weight: bold;
+    color: #1C367E;
+    padding: 30px 0px !important;
+}
+.lform input{
+    width: 350px;
+    border-bottom: 1px solid #1A377D !important;
+    height: 30px;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    position: relative;
+    font-weight:500;
+    margin-bottom: 10px !important;
+    
+}
+/* .lform input::placeholder{
+    font-size: 20px;
+} */
+.lform label{
+    font-size: 16px;
+    font-weight: 500;
+    transform: translate(0px,25px);
+    z-index: 2;
+    position: absolute;
+    opacity: 0.5;
+}
+/* .lform input:focus ~ label {
+    transform: translate(0px, -20px);
+  } */
+ .lform button{
+    color: #000;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 11px;
+border: 1px solid rgba(0, 0, 0, 0.30);
+background: #FFF;
+width: 130px;
+height: 35px;
+cursor: pointer;
+margin-top: 30px !important;
+ } 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

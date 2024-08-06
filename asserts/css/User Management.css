@@ -1,0 +1,1056 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,700&display=swap');
+
+* {
+    margin: 0 !important;
+    padding: 0 !important;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden !important;
+}
+
+:root {
+    --darkblue: #1C367E;
+}
+
+.main {
+    display: flex;
+}
+
+.toogle {
+    width: 25px;
+    height: 30px;
+    background-color: transparent;
+    margin: 20px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    display: none;
+
+}
+
+.side {
+    width: 25%;
+    border: 1px solid gray;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    position: fixed;
+}
+
+.side1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+    border-bottom: 1px solid gray;
+    padding: 20px 0px !important;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: Montserrat;
+    width: 100%;
+
+}
+
+
+/* Default style for the first active link */
+.active a {
+    background-color: #ffcc00; /* Set your desired active background color */
+    color: #161313; /* Set text color for active links */
+}
+
+/* Style for active links when clicked * */
+
+
+.side1 img{
+    width: 100px;
+    height: 100px;
+}
+
+.side1 span:nth-of-type(2) img{
+    height: 30px;
+}
+ /* ul is here */
+
+.underlist {
+    list-style: none;
+    padding: 0;
+
+}
+
+.underlist li {
+    padding: 5px !important;
+
+}
+
+.underlist li a {
+    text-decoration: none;
+    background-color: #fff;
+    color: black;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: flex-start;
+    display: flex;
+    /* gap: 20px; */
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 8px 11px !important;
+   
+    cursor: pointer;
+    gap: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.30);
+
+}
+#firsta a{
+    background: #7683E726;
+}
+
+.underlist li a:hover{
+    background: #7683E726;
+
+}
+.underlist li a:nth-of-type(1){
+    /* padding: 10px 0px !important; */
+}
+.underlist li a select{
+    /* background-color: red; */
+    padding: 10px 0px !important;
+    width: 240px;
+    outline: none;
+border: none;
+font-size: 13px;
+    font-weight: 500;
+}
+/* #purplecolor {
+    padding: 10px 10px !important;
+} */
+.underlist li a select:hover{
+    /* background-color: gray; */
+    background: #7683e700;
+
+}
+.underlist li a:hover select{
+    /* background-color: gray; */
+    background: #7683e700;
+}
+
+#sele option{
+    background: #7683E726;
+    border: 1px solid rgba(0, 0, 0, 0.30);
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 500;
+}
+/* .underlist li:nth-of-type(1) a{
+    padding: 10px 10px !important;
+} */
+.underlist li a:active {
+    background: #7683E726;
+    color: black;
+}
+
+
+.side1 div:nth-of-type(1) {
+    width: 80px;
+    height: 2px;
+    background-color: black;
+
+}
+
+.side div:nth-of-type(2) {
+    background-color: #FF6060;
+    border: none !important;
+    color: #fff;
+
+}
+
+
+.side div:nth-of-type(2),
+.side div:nth-of-type(3),
+.side div:nth-of-type(4),
+.side div:nth-of-type(5),
+.side div:nth-of-type(6) {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid gray;
+    border-radius: 20px;
+    padding: 10px 0px 7px 0px !important;
+    width: 90%;
+    cursor: pointer;
+    gap: 10px;
+    /* margin: auto !important; */
+}
+
+/* .block{
+
+    
+    
+    
+} */
+
+
+/* product link next page */
+
+#storeproductlink {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid gray;
+    border-radius: 20px;
+    padding: 10px 0px 7px 0px !important;
+    width: 90%;
+    cursor: pointer;
+    gap: 15px;
+    text-decoration: none;
+    border: 1px solid #FF8A00;
+    color: black;
+}
+/* adding in the existance */
+
+.ttwobutton{
+display: flex;
+gap: 10px;
+}
+
+
+/* navbar css in the website */
+
+
+.navbarpluscards {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: relative;
+    top: 0px;
+    left: 25%;
+    width: 75%;
+}
+
+.navbartop{
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    height: 100px;
+    gap: 20px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.30);
+    padding-right: 20px !important;
+}
+.navbartop>*{
+    height: 30px;
+    cursor: pointer;
+}
+
+.per1{
+height: 35px;
+width: 35px;
+}
+.per1 img{
+    height: 35px;
+    width: 35px;
+    }
+.per2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.per2 div:nth-of-type(1){
+    height: 25px;
+    width: 25px;
+}
+.per2 div:nth-of-type(1) img{
+    height:30px;
+    width: 30px;
+}
+
+.per2 div:nth-of-type(2){
+    font-size: 13px;
+    font-weight: 500;
+}
+.per2 div:nth-of-type(2) span{
+    font-size: 11px;
+    font-weight: 500;
+}
+.bottommenue{
+    width: 90%;
+    height: 100px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.30);
+    margin-inline: 5% !important;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+
+.right2{
+    display: flex;
+    flex-direction: column;
+}
+.right2 div:nth-of-type(1){
+font-size: 20px;
+font-weight: bold;
+padding: 3px 3px 3px 3px !important;
+}
+.right2 div:nth-of-type(2){
+    border-top: 1px solid rgba(0, 0, 0, 0.30);
+    font-size: 18px;
+    font-weight: 600;
+    opacity: 0.7;
+    padding: 10px 3px 3px 3px !important;
+}
+.bottommenue button{
+    border-radius: 6px;
+    gap: 10px;
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+    background: #FF6161;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 30px 9px 30px !important;
+}
+
+/* the css for the two buttons */
+
+.bottombuttons2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: 90px;
+    /* background-color: red; */
+}
+.bottombuttons2 button:nth-of-type(1){
+    border: none;
+    border-radius: 10px;
+font-size: 16px;
+font-weight: 600;
+width: 140px;
+height: 45px;
+
+}
+.bottombuttons2 button:nth-of-type(2){
+    border: none;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.30);
+    font-size: 16px;
+font-weight: 600;
+width: 140px;
+height: 45px;
+}
+
+
+/*  this is the css for the three buttons */
+
+.bottombuttons3{
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    gap: 10px;
+    height: 90px;
+    width: 90%;
+    margin-inline: 5% !important;
+    /* background-color: red; */
+}
+
+/* this is the css for the routing */
+.custom-button {
+    /* padding: 10px 20px; */
+    border: none;
+    cursor: pointer;
+  }
+  
+  .active-button {
+    background: #4F6DB5;
+    color: #fff;
+  }
+  
+  .content {
+    display: none;
+    padding: 20px;
+    /* border: 1px solid #ddd; */
+  }
+  
+  .active-content {
+    display: block;
+  }
+  
+/* this  is the css for the other routing */
+
+.custom-button2 {
+    border: none;
+    cursor: pointer;
+  }
+  
+  .active-button2 {
+    border: 1px solid rgba(0, 0, 0, 0.30);
+    background: #1A377D;
+    color: #fff;
+  }
+  
+  .content2 {
+    display: none;
+    padding: 20px;
+  }
+  
+  .active-content2 {
+    display: block;
+  }
+  
+
+.bottombuttons3 ul{
+    display: flex;
+    width: 100%;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+}
+.bottombuttons3 li{
+    width: 30%;
+    list-style: none;
+}
+.bottombuttons3 button{
+    width: 30%;
+}
+.bottombuttons3 button:nth-of-type(1){
+    border: none;
+    border-radius: 10px;
+border: 1px solid rgba(0, 0, 0, 0.30);
+font-size: 16px;
+font-weight: 600;
+/* width: 140px; */
+height: 45px;
+
+}
+.bottombuttons3 button:nth-of-type(2){
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+font-weight: 600;
+/* width: 140px; */
+height: 45px;
+border: 1px solid rgba(0, 0, 0, 0.30);
+}
+
+.bottombuttons3 button:nth-of-type(3){
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+font-weight: 600;
+/* width: 140px; */
+height: 45px;
+border: 1px solid rgba(0, 0, 0, 0.30);
+}
+
+
+.inputfelid{
+    display: flex;
+    gap: 10px;
+    width: 90%;
+    /* background-color: red; */
+    align-items: center;
+    margin-inline: 5% !important;
+    height: 53px;
+    padding: 0px 0px 0px 15px !important;
+    border-radius: 18px;
+border: 1px solid rgba(0, 0, 0, 0.30);
+background: #FFF;
+}
+.inputfelid input{
+    width: 80%;
+    padding: 4px 0px !important;
+    outline: none;
+    border: 1px solid rgba(0, 0, 0, 0.30);
+    border-radius: 5px;
+    text-indent: 10px;
+}
+.inputfelid button{
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3px !important;
+    border-radius: 3px;
+    margin-right: 6px !important;
+}
+
+/* the css for the tabble */
+
+
+.tabble{
+    width: 90%;
+    margin-inline: 5% !important;
+    border: 1px solid rgba(0, 0, 0, 0.30);
+    margin-top: 20px !important;
+    border-radius: 10px;
+}
+table{
+width: 100%;
+/* margin-inline: 5% !important; */
+/* border: 1px solid rgba(0, 0, 0, 0.30); */
+/* padding: 5px 0px 5px 10px !important; */
+border-radius: 10px;
+}
+/* th{
+    border: 1px solid red;
+} */
+table tr{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.30);
+    /* background-color: red; */
+    /* margin: 10px 0px 10px 10px !important; */
+}
+th:nth-of-type(1){
+    width: 30%;
+}
+
+
+td:nth-of-type(6)>*{
+margin: 5px !important;
+cursor: pointer;
+}
+th input,td input{
+    margin:13px 4px 13px 11px !important
+}
+th select{
+    border: none;
+    outline: none;
+}
+#user{
+    padding: 0px 72px 0px 4px !important;
+    font-size: 14px;
+    font-weight: bold;
+}
+th select:nth-of-type(1){
+    padding: 0px 21px 0px 0px !important;
+    font-size: 14px;
+    font-weight: bold;
+}
+.widthgiven{
+    width: 21%;
+}
+.tdfour{
+    text-align: center;
+}
+.tdfive{
+    text-align: center;
+}
+/* this is  for the image line in the code */
+td:nth-of-type(1){
+    display: flex;
+    gap: 5px;
+    /* justify-content: center; */
+    align-items: center;
+}
+td img{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+td div:nth-of-type(1){
+    font-size: 14px ;
+    font-weight: 600;
+}
+td span:nth-of-type(1){
+    font-size: 12px ;
+    font-weight: 600;
+}
+tr:nth-last-of-type(1){
+    border-bottom: none;
+}
+
+td:nth-of-type(2){
+    font-size: 15px;
+    font-weight: 500;
+}
+td:nth-of-type(3){
+    font-size: 15px;
+    font-weight: 500;
+}
+td:nth-of-type(4){
+    font-size: 15px;
+    font-weight: 500;
+    display: flex;
+    gap: 5px;
+    margin-left: 15px !important;
+}
+
+
+.activbut{
+    font-size: 14px;
+    font-weight: 500;
+    color:  #0D894F;
+    background: #0D894F29;
+    border: none;
+    border-radius: 10px;
+    padding: 4px 7px 4px 7px !important;
+
+}
+.inactiveper{
+    font-size: 14px;
+    font-weight: 500;
+    color:  #FF4747;
+    background: #890D0D29;
+    border: none;
+    border-radius: 10px;
+    padding: 4px 15px 4px 15px !important;
+}
+.centered{
+    font-size: 12px;
+    font-weight: 400;
+  text-align: center;
+  color: green;
+}
+.buttondis button:nth-of-type(1){
+    border: none;
+    padding: 5px 17px 6px 17px !important;
+    border-radius: 6px;
+    background: #1A377D;
+    color: white;
+}
+.buttondis button:nth-of-type(2){
+    border: none;
+    padding: 5px 17px 6px 17px !important;
+    border-radius: 10px;
+    background: #F00;
+    color: white;
+}
+.company{
+    border: 1px solid rgba(0, 0, 0, 0.271);
+border-radius: 6px;
+font-size: 8px !important;
+    padding: 2px !important;
+    font-weight: 600 !important;
+}
+
+td:nth-of-type(5){
+        font-weight: 500;
+        font-size: 15px;
+}
+
+
+
+.mainparentdivofcards {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cards {
+    margin-block: 30px !important;
+    margin-inline: 20px !important;
+    border-radius: 11px;
+    height: 170px;
+    width: 300px;
+    background: rgba(81, 144, 189, 0.49);
+    box-shadow: 0px 4px 18px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+}
+
+.allcontent {
+    margin-inline: 12px !important;
+    padding-block: 30px !important;
+    text-align: center;
+}
+
+
+.allcontent img {
+    height: 50px;
+    width: 50px;
+
+}
+
+.allcontent h6 {
+    font-size: 14px;
+    padding-top: 10px !important;
+    font-weight: 500;
+}
+
+.allcontent p {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.allcontent span {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.buttonscards {
+    padding-block: 3px !important;
+    margin-top: 10px !important;
+
+
+}
+
+.buttonscards button {
+    border: none;
+    outline: none;
+    padding: 7px 12px !important;
+    border-radius: 10px;
+    background-color: #fff;
+    color: black;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+/* this is the css for the popupbox in the website */
+
+.popup{
+    width: 270px;
+    height: 80vh;
+    /* background-color: red; */
+    position: fixed;
+    display: none;
+    top: 30px;
+    right: 30px;
+    border-radius: 28px 0px 28px 28px;
+background: #FFF;
+box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.pophead{
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 10px !important;
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+    align-items: center;
+}
+.pophead div:nth-of-type(1){
+font-size: 13px;
+font-weight: 600;
+}
+.pophead div:nth-of-type(2){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+    font-size: 13px;
+    opacity: 0.65;
+    text-decoration: underline;
+}
+
+
+#accordionFlushExample{
+    padding-inline: 10px !important;
+    
+}
+
+#heading {
+    background-color:#F9F9FC ;
+    padding: 3px 2px 3px 5px !important;
+    border: 1px solid rgba(0, 0, 0, 0.30);
+    margin-bottom: 10px !important;
+    border-radius: 3px;
+    font-size: 15px;
+    font-weight: 500;
+}
+#body{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding-top: 5px !important;
+}
+#body div{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 3px;
+    font-size: 14px;
+    font-weight: 400;
+}
+/* this second filter */
+#secondbody{
+/* display: flex;
+flex-direction: column; */
+position: relative;
+padding-top: 10px !important;
+padding-bottom: 5px !important;
+}
+#secondbody label{
+font-size: 14px;
+font-weight: 500;
+}
+
+#secondbody input{
+text-indent: 20px;
+width: 99%;
+outline: none;
+border: 1px solid #E0E2E7;
+border-radius: 8px;
+background-color: #F9F9FC;
+padding: 3px 0px 5px 3px !important;
+}
+#secondbody svg{
+position: absolute;
+top: 38px;
+}
+#secondbody svg:nth-of-type(2){
+    position: absolute;
+        top: 92px;
+    }
+
+#secondbody input::placeholder{
+font-size: 14px;
+font-weight: 450;
+}
+/* this is the css for the third  */
+#body2{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 5px !important;
+}
+.circle{
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+}
+.red{
+background-color: red;
+}
+.green{
+background-color: #008000;
+}
+.blue{
+background-color: #0000FF;
+}
+.yellow{
+background-color: #FFFF00;
+}
+.halfyel{
+background-color: #FFA500;
+}
+
+#body2 div{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 7px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
+
+/* this is the css for the forth in the popup  */
+#body3{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding-top: 5px !important;
+}
+#body3 div{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 3px;
+    font-size: 14px;
+    font-weight: 400;
+}
+/* the css for the buttons */
+.popbutton{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+    padding-right: 10px !important;
+    padding-top: 15px !important;
+}
+.popbutton button:nth-of-type(1){
+border: none;
+color: #858D9D;
+/* background-color: #858D9D; */
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 8px;
+    border: 1px solid #858D9D;
+    padding: 5px 13px 5px 13px !important;
+}
+.popbutton button:nth-of-type(2){
+    border: none;
+    color: #fff;
+    background-color: #858D9D;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 8px;
+    padding: 5px 13px 5px 13px !important;
+}
+
+/* media querry for 1024 */
+
+@media(max-width:1236px){
+    .underlist li a select{
+        width: 190px;
+    }
+}
+
+@media(max-width:1024px){
+    .tabble{
+        width: 98%;
+        margin-inline: 1% !important;
+        border: 1px solid rgba(0, 0, 0, 0.30);
+        margin-top: 20px !important;
+        border-radius: 10px;
+    }
+   
+}
+
+/* end cards */
+
+@media(max-width:900px) {
+    .toogle {
+        display: block;
+        z-index: 9;
+    }
+
+    .side {
+        width: 50%;
+        border: 1px solid gray;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+        position: fixed;
+        left: -50%;
+        transition: 1s;
+        z-index: 4;
+    }
+
+    .block {
+        width: 50%;
+        border: 1px solid gray;
+        background-color: white;
+        height: 100vh;
+        display: flex;
+        position: fixed;
+        left: 0px;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+        z-index: 4;
+        transition: 1s;
+    }
+    .underlist li a select{
+        width:250px;
+    }
+    .navbarpluscards {
+        width: 100%;
+        left: 0px;
+    }
+
+}
+
+@media(max-width:700px) {
+
+
+    .ttwobutton {
+        display: flex;
+        gap: 10px;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+.bottommenue {
+    height: 160px;}
+}
+
+
+
+
+@media(max-width:500px) {
+    .cards {
+        margin-inline: 0px !important;
+    }
+    table{
+        width: 250%;
+        /* margin-inline: 5% !important; */
+        /* border: 1px solid rgba(0, 0, 0, 0.30); */
+        padding: 5px 0px 5px 10px !important;
+        border-radius: 10px;
+        }
+.tabble{
+    overflow: scroll;
+}
+
+.side {
+    width: 70%;
+    border: 1px solid gray;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    position: fixed;
+    left: -70%;
+    transition: 1s;
+    z-index: 4;
+}
+
+.block {
+    width: 70%;
+    border: 1px solid gray;
+    background-color: white;
+    height: 100vh;
+    display: flex;
+    position: fixed;
+    left: 0px;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    z-index: 4;
+    transition: 1s;
+}
+.underlist li a select{
+    width:200px;
+}
+
+/* this is the css for the body  */
+.right2 div:nth-of-type(2) {
+font-size: 15px;
+}
+.right2 div:nth-of-type(1) {
+    font-size: 18px;
+}
+.bottommenue {
+    width: 98%;
+    gap: 20px;
+    height: 160px;
+    margin-inline: 1% !important;
+}
+
+.ttwobutton {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottommenue button {
+    padding: 9px 16px 9px 16px !important;
+}
+.navbarpluscards {
+    width: 100%;
+    left: 0px;
+}
+
+}
