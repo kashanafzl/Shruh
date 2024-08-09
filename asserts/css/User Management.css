@@ -245,12 +245,12 @@ gap: 10px;
     justify-content:flex-end;
     align-items: center;
     height: 100px;
-    gap: 20px;
+    gap: 10px;
     border-bottom: 1px solid rgba(0, 0, 0, 0.30);
     padding-right: 20px !important;
 }
 .navbartop>*{
-    height: 30px;
+    height: 25px;
     cursor: pointer;
 }
 
@@ -266,7 +266,7 @@ width: 35px;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    gap: 20px;
 }
 .per2 div:nth-of-type(1){
     height: 25px;
@@ -274,7 +274,7 @@ width: 35px;
 }
 .per2 div:nth-of-type(1) img{
     height:30px;
-    width: 30px;
+    width: 35px;
 }
 
 .per2 div:nth-of-type(2){

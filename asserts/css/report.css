@@ -187,12 +187,12 @@ font-size: 13px;
     justify-content:flex-end;
     align-items: center;
     height: 100px;
-    gap: 20px;
+    gap: 5px;
     border-bottom: 1px solid rgba(0, 0, 0, 0.30);
     padding-right: 20px !important;
 }
 .navbartop>*{
-    height: 30px;
+    height: 25px;
 }
 
 .per1{

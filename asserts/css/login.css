@@ -1,7 +1,19 @@
+
+
+
+
+
+
 *{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+}
+
+
+body{
+    font-family: "Poppins", sans-serif;
+    overflow-x: hidden;
 }
 .lmain{
  display: flex;
@@ -71,16 +83,16 @@ margin: 5px 0px !important;
     transform: translate(0px, -20px);
   } */
  .lform button{
-    color: #000;
-    font-size: 18px;
+    color: #1a377d;
+    font-size: 16px;
     font-weight: 600;
-    border-radius: 11px;
-border: 1px solid rgba(0, 0, 0, 0.30);
-background: #FFF;
-width: 130px;
-height: 35px;
-cursor: pointer;
-margin-top: 30px !important;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.30);
+    background: #FFF;
+    width: 130px;
+    height: 35px;
+    cursor: pointer;
+    margin-top: 30px !important;
  } 
 
 
